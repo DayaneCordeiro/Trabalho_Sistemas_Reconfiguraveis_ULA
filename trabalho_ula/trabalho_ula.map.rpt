@@ -1,5 +1,5 @@
 Analysis & Synthesis report for trabalho_ula
-Mon Oct 10 22:33:57 2022
+Sun Oct 16 11:25:47 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -41,13 +41,13 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Oct 10 22:33:57 2022        ;
+; Analysis & Synthesis Status        ; Successful - Sun Oct 16 11:25:47 2022        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; trabalho_ula                                 ;
 ; Top-level Entity Name              ; trabalho_ula                                 ;
 ; Family                             ; Cyclone II                                   ;
-; Total logic elements               ; 102                                          ;
-;     Total combinational functions  ; 102                                          ;
+; Total logic elements               ; 110                                          ;
+;     Total combinational functions  ; 110                                          ;
 ;     Dedicated logic registers      ; 0                                            ;
 ; Total registers                    ; 0                                            ;
 ; Total pins                         ; 31                                           ;
@@ -162,27 +162,27 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 102         ;
+; Estimated Total logic elements              ; 110         ;
 ;                                             ;             ;
-; Total combinational functions               ; 102         ;
+; Total combinational functions               ; 110         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 52          ;
-;     -- 3 input functions                    ; 32          ;
-;     -- <=2 input functions                  ; 18          ;
+;     -- 4 input functions                    ; 58          ;
+;     -- 3 input functions                    ; 31          ;
+;     -- <=2 input functions                  ; 21          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 78          ;
-;     -- arithmetic mode                      ; 24          ;
+;     -- normal mode                          ; 88          ;
+;     -- arithmetic mode                      ; 22          ;
 ;                                             ;             ;
 ; Total registers                             ; 0           ;
 ;     -- Dedicated logic registers            ; 0           ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 31          ;
-; Maximum fan-out node                        ; operator[2] ;
-; Maximum fan-out                             ; 17          ;
-; Total fan-out                               ; 345         ;
-; Average fan-out                             ; 2.59        ;
+; Maximum fan-out node                        ; operator[1] ;
+; Maximum fan-out                             ; 31          ;
+; Total fan-out                               ; 377         ;
+; Average fan-out                             ; 2.67        ;
 +---------------------------------------------+-------------+
 
 
@@ -191,7 +191,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |trabalho_ula              ; 102 (102)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 31   ; 0            ; |trabalho_ula       ; work         ;
+; |trabalho_ula              ; 110 (110)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 31   ; 0            ; |trabalho_ula       ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -216,7 +216,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 13:1               ; 6 bits    ; 48 LEs        ; 36 LEs               ; 12 LEs                 ; No         ; |trabalho_ula|Mux3         ;
+; 12:1               ; 6 bits    ; 48 LEs        ; 36 LEs               ; 12 LEs                 ; No         ; |trabalho_ula|Mux1         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
@@ -226,20 +226,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Oct 10 22:33:56 2022
+    Info: Processing started: Sun Oct 16 11:25:45 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off trabalho_ula -c trabalho_ula
 Info: Found 2 design units, including 1 entities, in source file trabalho_ula.vhd
     Info: Found design unit 1: trabalho_ula-ula
     Info: Found entity 1: trabalho_ula
 Info: Elaborating entity "trabalho_ula" for the top level hierarchy
-Info: Implemented 133 device resources after synthesis - the final resource count might be different
+Info: Implemented 141 device resources after synthesis - the final resource count might be different
     Info: Implemented 21 input pins
     Info: Implemented 10 output pins
-    Info: Implemented 102 logic cells
+    Info: Implemented 110 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 240 megabytes
-    Info: Processing ended: Mon Oct 10 22:33:57 2022
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 235 megabytes
+    Info: Processing ended: Sun Oct 16 11:25:47 2022
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 

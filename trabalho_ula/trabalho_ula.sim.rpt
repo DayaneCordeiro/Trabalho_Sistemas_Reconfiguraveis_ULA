@@ -1,5 +1,5 @@
 Simulator report for trabalho_ula
-Mon Oct 10 22:11:15 2022
+Sun Oct 16 15:35:21 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -45,7 +45,7 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 1454 nodes   ;
+; Simulation Netlist Size     ; 1483 nodes   ;
 ; Simulation Coverage         ;       0.00 % ;
 ; Total Number of Transitions ; 0            ;
 ; Simulation Breakpoints      ; 0            ;
@@ -77,7 +77,7 @@ applicable agreement for further details.
 ; Preserve fewer signal transitions to reduce memory requirements                            ; On               ; On            ;
 ; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE       ; INPUT_EDGE    ;
 ; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off              ; Off           ;
-; Overwrite Waveform Inputs With Simulation Outputs                                          ; On               ;               ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off              ;               ;
 ; Perform Glitch Filtering in Timing Simulation                                              ; Auto             ; Auto          ;
 +--------------------------------------------------------------------------------------------+------------------+---------------+
 
@@ -95,12 +95,12 @@ Please use Quartus II to view the waveform report data.
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
 ; Total coverage as a percentage                      ;       0.00 % ;
-; Total nodes checked                                 ; 1454         ;
-; Total output ports checked                          ; 1454         ;
+; Total nodes checked                                 ; 1483         ;
+; Total output ports checked                          ; 1483         ;
 ; Total output ports with complete 1/0-value coverage ; 0            ;
-; Total output ports with no 1/0-value coverage       ; 1454         ;
-; Total output ports with no 1-value coverage         ; 1454         ;
-; Total output ports with no 0-value coverage         ; 1454         ;
+; Total output ports with no 1/0-value coverage       ; 1483         ;
+; Total output ports with no 1-value coverage         ; 1483         ;
+; Total output ports with no 0-value coverage         ; 1483         ;
 +-----------------------------------------------------+--------------+
 
 
@@ -206,10 +206,6 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |trabalho_ula|Add0~30                                              ; |trabalho_ula|Add0~30                                              ; out0             ;
 ; |trabalho_ula|Add0~31                                              ; |trabalho_ula|Add0~31                                              ; out0             ;
 ; |trabalho_ula|Add0~32                                              ; |trabalho_ula|Add0~32                                              ; out0             ;
-; |trabalho_ula|Add0~33                                              ; |trabalho_ula|Add0~33                                              ; out0             ;
-; |trabalho_ula|Add0~34                                              ; |trabalho_ula|Add0~34                                              ; out0             ;
-; |trabalho_ula|Add0~35                                              ; |trabalho_ula|Add0~35                                              ; out0             ;
-; |trabalho_ula|Add0~36                                              ; |trabalho_ula|Add0~36                                              ; out0             ;
 ; |trabalho_ula|Add1~0                                               ; |trabalho_ula|Add1~0                                               ; out0             ;
 ; |trabalho_ula|Add1~1                                               ; |trabalho_ula|Add1~1                                               ; out0             ;
 ; |trabalho_ula|Add1~2                                               ; |trabalho_ula|Add1~2                                               ; out0             ;
@@ -225,30 +221,63 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |trabalho_ula|Add1~12                                              ; |trabalho_ula|Add1~12                                              ; out0             ;
 ; |trabalho_ula|Add1~13                                              ; |trabalho_ula|Add1~13                                              ; out0             ;
 ; |trabalho_ula|Add1~14                                              ; |trabalho_ula|Add1~14                                              ; out0             ;
-; |trabalho_ula|Add1~15                                              ; |trabalho_ula|Add1~15                                              ; out0             ;
-; |trabalho_ula|Add1~16                                              ; |trabalho_ula|Add1~16                                              ; out0             ;
-; |trabalho_ula|Add1~17                                              ; |trabalho_ula|Add1~17                                              ; out0             ;
-; |trabalho_ula|Add1~18                                              ; |trabalho_ula|Add1~18                                              ; out0             ;
-; |trabalho_ula|Add1~19                                              ; |trabalho_ula|Add1~19                                              ; out0             ;
-; |trabalho_ula|Add1~20                                              ; |trabalho_ula|Add1~20                                              ; out0             ;
-; |trabalho_ula|Add1~21                                              ; |trabalho_ula|Add1~21                                              ; out0             ;
-; |trabalho_ula|Add1~22                                              ; |trabalho_ula|Add1~22                                              ; out0             ;
-; |trabalho_ula|Add1~23                                              ; |trabalho_ula|Add1~23                                              ; out0             ;
-; |trabalho_ula|Add1~24                                              ; |trabalho_ula|Add1~24                                              ; out0             ;
-; |trabalho_ula|Add1~25                                              ; |trabalho_ula|Add1~25                                              ; out0             ;
-; |trabalho_ula|Add1~26                                              ; |trabalho_ula|Add1~26                                              ; out0             ;
-; |trabalho_ula|Add1~27                                              ; |trabalho_ula|Add1~27                                              ; out0             ;
-; |trabalho_ula|Add1~28                                              ; |trabalho_ula|Add1~28                                              ; out0             ;
-; |trabalho_ula|Add1~29                                              ; |trabalho_ula|Add1~29                                              ; out0             ;
-; |trabalho_ula|Add1~30                                              ; |trabalho_ula|Add1~30                                              ; out0             ;
-; |trabalho_ula|Add1~31                                              ; |trabalho_ula|Add1~31                                              ; out0             ;
-; |trabalho_ula|Add1~32                                              ; |trabalho_ula|Add1~32                                              ; out0             ;
-; |trabalho_ula|Add1~33                                              ; |trabalho_ula|Add1~33                                              ; out0             ;
-; |trabalho_ula|Add1~34                                              ; |trabalho_ula|Add1~34                                              ; out0             ;
-; |trabalho_ula|Add1~35                                              ; |trabalho_ula|Add1~35                                              ; out0             ;
-; |trabalho_ula|Add1~36                                              ; |trabalho_ula|Add1~36                                              ; out0             ;
-; |trabalho_ula|Add1~37                                              ; |trabalho_ula|Add1~37                                              ; out0             ;
-; |trabalho_ula|Equal1~0                                             ; |trabalho_ula|Equal1~0                                             ; out0             ;
+; |trabalho_ula|Add2~0                                               ; |trabalho_ula|Add2~0                                               ; out0             ;
+; |trabalho_ula|Add2~1                                               ; |trabalho_ula|Add2~1                                               ; out0             ;
+; |trabalho_ula|Add2~2                                               ; |trabalho_ula|Add2~2                                               ; out0             ;
+; |trabalho_ula|Add2~3                                               ; |trabalho_ula|Add2~3                                               ; out0             ;
+; |trabalho_ula|Add2~4                                               ; |trabalho_ula|Add2~4                                               ; out0             ;
+; |trabalho_ula|Add2~5                                               ; |trabalho_ula|Add2~5                                               ; out0             ;
+; |trabalho_ula|Add2~6                                               ; |trabalho_ula|Add2~6                                               ; out0             ;
+; |trabalho_ula|Add2~7                                               ; |trabalho_ula|Add2~7                                               ; out0             ;
+; |trabalho_ula|Add2~8                                               ; |trabalho_ula|Add2~8                                               ; out0             ;
+; |trabalho_ula|Add2~9                                               ; |trabalho_ula|Add2~9                                               ; out0             ;
+; |trabalho_ula|Add2~10                                              ; |trabalho_ula|Add2~10                                              ; out0             ;
+; |trabalho_ula|Add2~11                                              ; |trabalho_ula|Add2~11                                              ; out0             ;
+; |trabalho_ula|Add2~12                                              ; |trabalho_ula|Add2~12                                              ; out0             ;
+; |trabalho_ula|Add2~13                                              ; |trabalho_ula|Add2~13                                              ; out0             ;
+; |trabalho_ula|Add2~14                                              ; |trabalho_ula|Add2~14                                              ; out0             ;
+; |trabalho_ula|Add2~15                                              ; |trabalho_ula|Add2~15                                              ; out0             ;
+; |trabalho_ula|Add2~16                                              ; |trabalho_ula|Add2~16                                              ; out0             ;
+; |trabalho_ula|Add2~17                                              ; |trabalho_ula|Add2~17                                              ; out0             ;
+; |trabalho_ula|Add2~18                                              ; |trabalho_ula|Add2~18                                              ; out0             ;
+; |trabalho_ula|Add2~19                                              ; |trabalho_ula|Add2~19                                              ; out0             ;
+; |trabalho_ula|Add2~20                                              ; |trabalho_ula|Add2~20                                              ; out0             ;
+; |trabalho_ula|Add2~21                                              ; |trabalho_ula|Add2~21                                              ; out0             ;
+; |trabalho_ula|Add2~22                                              ; |trabalho_ula|Add2~22                                              ; out0             ;
+; |trabalho_ula|Add2~23                                              ; |trabalho_ula|Add2~23                                              ; out0             ;
+; |trabalho_ula|Add2~24                                              ; |trabalho_ula|Add2~24                                              ; out0             ;
+; |trabalho_ula|Add2~25                                              ; |trabalho_ula|Add2~25                                              ; out0             ;
+; |trabalho_ula|Add2~26                                              ; |trabalho_ula|Add2~26                                              ; out0             ;
+; |trabalho_ula|Add2~27                                              ; |trabalho_ula|Add2~27                                              ; out0             ;
+; |trabalho_ula|Add2~28                                              ; |trabalho_ula|Add2~28                                              ; out0             ;
+; |trabalho_ula|Add2~29                                              ; |trabalho_ula|Add2~29                                              ; out0             ;
+; |trabalho_ula|Add2~30                                              ; |trabalho_ula|Add2~30                                              ; out0             ;
+; |trabalho_ula|Add2~31                                              ; |trabalho_ula|Add2~31                                              ; out0             ;
+; |trabalho_ula|Add2~32                                              ; |trabalho_ula|Add2~32                                              ; out0             ;
+; |trabalho_ula|Add2~33                                              ; |trabalho_ula|Add2~33                                              ; out0             ;
+; |trabalho_ula|Add3~0                                               ; |trabalho_ula|Add3~0                                               ; out0             ;
+; |trabalho_ula|Add3~1                                               ; |trabalho_ula|Add3~1                                               ; out0             ;
+; |trabalho_ula|Add3~2                                               ; |trabalho_ula|Add3~2                                               ; out0             ;
+; |trabalho_ula|Add3~3                                               ; |trabalho_ula|Add3~3                                               ; out0             ;
+; |trabalho_ula|Add3~4                                               ; |trabalho_ula|Add3~4                                               ; out0             ;
+; |trabalho_ula|Add3~5                                               ; |trabalho_ula|Add3~5                                               ; out0             ;
+; |trabalho_ula|Add3~6                                               ; |trabalho_ula|Add3~6                                               ; out0             ;
+; |trabalho_ula|Add3~7                                               ; |trabalho_ula|Add3~7                                               ; out0             ;
+; |trabalho_ula|Add3~8                                               ; |trabalho_ula|Add3~8                                               ; out0             ;
+; |trabalho_ula|Add3~9                                               ; |trabalho_ula|Add3~9                                               ; out0             ;
+; |trabalho_ula|Add3~10                                              ; |trabalho_ula|Add3~10                                              ; out0             ;
+; |trabalho_ula|Add3~11                                              ; |trabalho_ula|Add3~11                                              ; out0             ;
+; |trabalho_ula|Add3~12                                              ; |trabalho_ula|Add3~12                                              ; out0             ;
+; |trabalho_ula|Add3~13                                              ; |trabalho_ula|Add3~13                                              ; out0             ;
+; |trabalho_ula|Add3~14                                              ; |trabalho_ula|Add3~14                                              ; out0             ;
+; |trabalho_ula|Add3~15                                              ; |trabalho_ula|Add3~15                                              ; out0             ;
+; |trabalho_ula|Add3~16                                              ; |trabalho_ula|Add3~16                                              ; out0             ;
+; |trabalho_ula|Add3~17                                              ; |trabalho_ula|Add3~17                                              ; out0             ;
+; |trabalho_ula|Add3~18                                              ; |trabalho_ula|Add3~18                                              ; out0             ;
+; |trabalho_ula|Add3~19                                              ; |trabalho_ula|Add3~19                                              ; out0             ;
+; |trabalho_ula|Add3~20                                              ; |trabalho_ula|Add3~20                                              ; out0             ;
+; |trabalho_ula|Add3~21                                              ; |trabalho_ula|Add3~21                                              ; out0             ;
+; |trabalho_ula|Equal0~0                                             ; |trabalho_ula|Equal0~0                                             ; out0             ;
 ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~0              ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~0              ; out0             ;
 ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~1              ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~1              ; out0             ;
 ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~2              ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~2              ; out0             ;
@@ -1669,10 +1698,6 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |trabalho_ula|Add0~30                                              ; |trabalho_ula|Add0~30                                              ; out0             ;
 ; |trabalho_ula|Add0~31                                              ; |trabalho_ula|Add0~31                                              ; out0             ;
 ; |trabalho_ula|Add0~32                                              ; |trabalho_ula|Add0~32                                              ; out0             ;
-; |trabalho_ula|Add0~33                                              ; |trabalho_ula|Add0~33                                              ; out0             ;
-; |trabalho_ula|Add0~34                                              ; |trabalho_ula|Add0~34                                              ; out0             ;
-; |trabalho_ula|Add0~35                                              ; |trabalho_ula|Add0~35                                              ; out0             ;
-; |trabalho_ula|Add0~36                                              ; |trabalho_ula|Add0~36                                              ; out0             ;
 ; |trabalho_ula|Add1~0                                               ; |trabalho_ula|Add1~0                                               ; out0             ;
 ; |trabalho_ula|Add1~1                                               ; |trabalho_ula|Add1~1                                               ; out0             ;
 ; |trabalho_ula|Add1~2                                               ; |trabalho_ula|Add1~2                                               ; out0             ;
@@ -1688,30 +1713,63 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |trabalho_ula|Add1~12                                              ; |trabalho_ula|Add1~12                                              ; out0             ;
 ; |trabalho_ula|Add1~13                                              ; |trabalho_ula|Add1~13                                              ; out0             ;
 ; |trabalho_ula|Add1~14                                              ; |trabalho_ula|Add1~14                                              ; out0             ;
-; |trabalho_ula|Add1~15                                              ; |trabalho_ula|Add1~15                                              ; out0             ;
-; |trabalho_ula|Add1~16                                              ; |trabalho_ula|Add1~16                                              ; out0             ;
-; |trabalho_ula|Add1~17                                              ; |trabalho_ula|Add1~17                                              ; out0             ;
-; |trabalho_ula|Add1~18                                              ; |trabalho_ula|Add1~18                                              ; out0             ;
-; |trabalho_ula|Add1~19                                              ; |trabalho_ula|Add1~19                                              ; out0             ;
-; |trabalho_ula|Add1~20                                              ; |trabalho_ula|Add1~20                                              ; out0             ;
-; |trabalho_ula|Add1~21                                              ; |trabalho_ula|Add1~21                                              ; out0             ;
-; |trabalho_ula|Add1~22                                              ; |trabalho_ula|Add1~22                                              ; out0             ;
-; |trabalho_ula|Add1~23                                              ; |trabalho_ula|Add1~23                                              ; out0             ;
-; |trabalho_ula|Add1~24                                              ; |trabalho_ula|Add1~24                                              ; out0             ;
-; |trabalho_ula|Add1~25                                              ; |trabalho_ula|Add1~25                                              ; out0             ;
-; |trabalho_ula|Add1~26                                              ; |trabalho_ula|Add1~26                                              ; out0             ;
-; |trabalho_ula|Add1~27                                              ; |trabalho_ula|Add1~27                                              ; out0             ;
-; |trabalho_ula|Add1~28                                              ; |trabalho_ula|Add1~28                                              ; out0             ;
-; |trabalho_ula|Add1~29                                              ; |trabalho_ula|Add1~29                                              ; out0             ;
-; |trabalho_ula|Add1~30                                              ; |trabalho_ula|Add1~30                                              ; out0             ;
-; |trabalho_ula|Add1~31                                              ; |trabalho_ula|Add1~31                                              ; out0             ;
-; |trabalho_ula|Add1~32                                              ; |trabalho_ula|Add1~32                                              ; out0             ;
-; |trabalho_ula|Add1~33                                              ; |trabalho_ula|Add1~33                                              ; out0             ;
-; |trabalho_ula|Add1~34                                              ; |trabalho_ula|Add1~34                                              ; out0             ;
-; |trabalho_ula|Add1~35                                              ; |trabalho_ula|Add1~35                                              ; out0             ;
-; |trabalho_ula|Add1~36                                              ; |trabalho_ula|Add1~36                                              ; out0             ;
-; |trabalho_ula|Add1~37                                              ; |trabalho_ula|Add1~37                                              ; out0             ;
-; |trabalho_ula|Equal1~0                                             ; |trabalho_ula|Equal1~0                                             ; out0             ;
+; |trabalho_ula|Add2~0                                               ; |trabalho_ula|Add2~0                                               ; out0             ;
+; |trabalho_ula|Add2~1                                               ; |trabalho_ula|Add2~1                                               ; out0             ;
+; |trabalho_ula|Add2~2                                               ; |trabalho_ula|Add2~2                                               ; out0             ;
+; |trabalho_ula|Add2~3                                               ; |trabalho_ula|Add2~3                                               ; out0             ;
+; |trabalho_ula|Add2~4                                               ; |trabalho_ula|Add2~4                                               ; out0             ;
+; |trabalho_ula|Add2~5                                               ; |trabalho_ula|Add2~5                                               ; out0             ;
+; |trabalho_ula|Add2~6                                               ; |trabalho_ula|Add2~6                                               ; out0             ;
+; |trabalho_ula|Add2~7                                               ; |trabalho_ula|Add2~7                                               ; out0             ;
+; |trabalho_ula|Add2~8                                               ; |trabalho_ula|Add2~8                                               ; out0             ;
+; |trabalho_ula|Add2~9                                               ; |trabalho_ula|Add2~9                                               ; out0             ;
+; |trabalho_ula|Add2~10                                              ; |trabalho_ula|Add2~10                                              ; out0             ;
+; |trabalho_ula|Add2~11                                              ; |trabalho_ula|Add2~11                                              ; out0             ;
+; |trabalho_ula|Add2~12                                              ; |trabalho_ula|Add2~12                                              ; out0             ;
+; |trabalho_ula|Add2~13                                              ; |trabalho_ula|Add2~13                                              ; out0             ;
+; |trabalho_ula|Add2~14                                              ; |trabalho_ula|Add2~14                                              ; out0             ;
+; |trabalho_ula|Add2~15                                              ; |trabalho_ula|Add2~15                                              ; out0             ;
+; |trabalho_ula|Add2~16                                              ; |trabalho_ula|Add2~16                                              ; out0             ;
+; |trabalho_ula|Add2~17                                              ; |trabalho_ula|Add2~17                                              ; out0             ;
+; |trabalho_ula|Add2~18                                              ; |trabalho_ula|Add2~18                                              ; out0             ;
+; |trabalho_ula|Add2~19                                              ; |trabalho_ula|Add2~19                                              ; out0             ;
+; |trabalho_ula|Add2~20                                              ; |trabalho_ula|Add2~20                                              ; out0             ;
+; |trabalho_ula|Add2~21                                              ; |trabalho_ula|Add2~21                                              ; out0             ;
+; |trabalho_ula|Add2~22                                              ; |trabalho_ula|Add2~22                                              ; out0             ;
+; |trabalho_ula|Add2~23                                              ; |trabalho_ula|Add2~23                                              ; out0             ;
+; |trabalho_ula|Add2~24                                              ; |trabalho_ula|Add2~24                                              ; out0             ;
+; |trabalho_ula|Add2~25                                              ; |trabalho_ula|Add2~25                                              ; out0             ;
+; |trabalho_ula|Add2~26                                              ; |trabalho_ula|Add2~26                                              ; out0             ;
+; |trabalho_ula|Add2~27                                              ; |trabalho_ula|Add2~27                                              ; out0             ;
+; |trabalho_ula|Add2~28                                              ; |trabalho_ula|Add2~28                                              ; out0             ;
+; |trabalho_ula|Add2~29                                              ; |trabalho_ula|Add2~29                                              ; out0             ;
+; |trabalho_ula|Add2~30                                              ; |trabalho_ula|Add2~30                                              ; out0             ;
+; |trabalho_ula|Add2~31                                              ; |trabalho_ula|Add2~31                                              ; out0             ;
+; |trabalho_ula|Add2~32                                              ; |trabalho_ula|Add2~32                                              ; out0             ;
+; |trabalho_ula|Add2~33                                              ; |trabalho_ula|Add2~33                                              ; out0             ;
+; |trabalho_ula|Add3~0                                               ; |trabalho_ula|Add3~0                                               ; out0             ;
+; |trabalho_ula|Add3~1                                               ; |trabalho_ula|Add3~1                                               ; out0             ;
+; |trabalho_ula|Add3~2                                               ; |trabalho_ula|Add3~2                                               ; out0             ;
+; |trabalho_ula|Add3~3                                               ; |trabalho_ula|Add3~3                                               ; out0             ;
+; |trabalho_ula|Add3~4                                               ; |trabalho_ula|Add3~4                                               ; out0             ;
+; |trabalho_ula|Add3~5                                               ; |trabalho_ula|Add3~5                                               ; out0             ;
+; |trabalho_ula|Add3~6                                               ; |trabalho_ula|Add3~6                                               ; out0             ;
+; |trabalho_ula|Add3~7                                               ; |trabalho_ula|Add3~7                                               ; out0             ;
+; |trabalho_ula|Add3~8                                               ; |trabalho_ula|Add3~8                                               ; out0             ;
+; |trabalho_ula|Add3~9                                               ; |trabalho_ula|Add3~9                                               ; out0             ;
+; |trabalho_ula|Add3~10                                              ; |trabalho_ula|Add3~10                                              ; out0             ;
+; |trabalho_ula|Add3~11                                              ; |trabalho_ula|Add3~11                                              ; out0             ;
+; |trabalho_ula|Add3~12                                              ; |trabalho_ula|Add3~12                                              ; out0             ;
+; |trabalho_ula|Add3~13                                              ; |trabalho_ula|Add3~13                                              ; out0             ;
+; |trabalho_ula|Add3~14                                              ; |trabalho_ula|Add3~14                                              ; out0             ;
+; |trabalho_ula|Add3~15                                              ; |trabalho_ula|Add3~15                                              ; out0             ;
+; |trabalho_ula|Add3~16                                              ; |trabalho_ula|Add3~16                                              ; out0             ;
+; |trabalho_ula|Add3~17                                              ; |trabalho_ula|Add3~17                                              ; out0             ;
+; |trabalho_ula|Add3~18                                              ; |trabalho_ula|Add3~18                                              ; out0             ;
+; |trabalho_ula|Add3~19                                              ; |trabalho_ula|Add3~19                                              ; out0             ;
+; |trabalho_ula|Add3~20                                              ; |trabalho_ula|Add3~20                                              ; out0             ;
+; |trabalho_ula|Add3~21                                              ; |trabalho_ula|Add3~21                                              ; out0             ;
+; |trabalho_ula|Equal0~0                                             ; |trabalho_ula|Equal0~0                                             ; out0             ;
 ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~0              ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~0              ; out0             ;
 ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~1              ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~1              ; out0             ;
 ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~2              ; |trabalho_ula|lpm_mux:Mux8|mux_joc:auto_generated|_~2              ; out0             ;
@@ -3051,20 +3109,17 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Oct 10 22:11:15 2022
+    Info: Processing started: Sun Oct 16 15:35:21 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off trabalho_ula -c trabalho_ula
 Info: Using vector source file "C:/Users/dayan/Documents/PUC MINAS/2022/SR/Trabalho_Sistemas_Reconfiguraveis_ULA/trabalho_ula/trabalho_ula.vwf"
-Info: Overwriting simulation input file with simulation results
-    Info: A backup of trabalho_ula.vwf called trabalho_ula.sim_ori.vwf has been created in the db folder
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
 Info: Simulation coverage is       0.00 %
 Info: Number of transitions in simulation is 0
-Info: Vector file trabalho_ula.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 144 megabytes
-    Info: Processing ended: Mon Oct 10 22:11:15 2022
+    Info: Processing ended: Sun Oct 16 15:35:21 2022
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
