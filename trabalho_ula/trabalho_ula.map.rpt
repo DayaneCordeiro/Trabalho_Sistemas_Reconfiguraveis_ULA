@@ -1,5 +1,5 @@
 Analysis & Synthesis report for trabalho_ula
-Sun Oct 16 11:25:47 2022
+Sat Nov 05 14:50:14 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Oct 16 11:25:47 2022        ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov 05 14:50:14 2022        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; trabalho_ula                                 ;
 ; Top-level Entity Name              ; trabalho_ula                                 ;
@@ -143,18 +143,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 4      ;
+; Number detected on machine ; 6      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                   ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------+
-; trabalho_ula.vhd                 ; yes             ; User VHDL File  ; C:/Users/dayan/Documents/PUC MINAS/2022/SR/Trabalho_Sistemas_Reconfiguraveis_ULA/trabalho_ula/trabalho_ula.vhd ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                           ;
++----------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                                        ;
++----------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------+
+; trabalho_ula.vhd                 ; yes             ; Auto-Found VHDL File  ; C:/Users/Pedro/Documents/GitHub/Trabalho_Sistemas_Reconfiguraveis_ULA/trabalho_ula/trabalho_ula.vhd ;
++----------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------+
@@ -226,9 +226,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Oct 16 11:25:45 2022
+    Info: Processing started: Sat Nov 05 14:50:12 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off trabalho_ula -c trabalho_ula
-Info: Found 2 design units, including 1 entities, in source file trabalho_ula.vhd
+Info: Found 2 design units, including 1 entities, in source file banco_registradores_8_bits.vhd
+    Info: Found design unit 1: banco_registradores_8_bits-Behavior
+    Info: Found entity 1: banco_registradores_8_bits
+Warning: Using design file trabalho_ula.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info: Found design unit 1: trabalho_ula-ula
     Info: Found entity 1: trabalho_ula
 Info: Elaborating entity "trabalho_ula" for the top level hierarchy
@@ -236,9 +239,9 @@ Info: Implemented 141 device resources after synthesis - the final resource coun
     Info: Implemented 21 input pins
     Info: Implemented 10 output pins
     Info: Implemented 110 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 235 megabytes
-    Info: Processing ended: Sun Oct 16 11:25:47 2022
+    Info: Processing ended: Sat Nov 05 14:50:14 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
