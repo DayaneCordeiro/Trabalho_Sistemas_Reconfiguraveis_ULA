@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Nov 05 16:24:42 2022
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
+Revision Name : banco_registradores_8_bits
+Top-level Entity Name : banco_registradores_8_bits
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 52 / 33,216 ( < 1 % )
+    Total combinational functions : 36 / 33,216 ( < 1 % )
+    Dedicated logic registers : 48 / 33,216 ( < 1 % )
+Total registers : 48
+Total pins : 70 / 475 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 0 / 483,840 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

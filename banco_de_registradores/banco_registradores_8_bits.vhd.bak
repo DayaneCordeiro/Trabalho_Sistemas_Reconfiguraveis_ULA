@@ -27,13 +27,13 @@ ENTITY banco_registradores_8_bits IS
 ARCHITECTURE Behavior OF banco_registradores_8_bits IS
 		TYPE mem_type IS ARRAY(0 TO 7) OF STD_LOGIC_VECTOR(7 DOWNTO 0);
 		SIGNAL mem_reg : mem_type;
-		SIGNAL regn_wr_sel_int : INTEGER RANGE 0 TO 7;
+		SIGNAL regn_wr_sel_int : INTEGER RANGE  0 TO 7;
 		SIGNAL regn_rd_sel_a_int: INTEGER RANGE 0 TO 2;
 		SIGNAL regn_rd_sel_b_int: INTEGER RANGE 0 TO 2;
 	BEGIN
 		regn_wr_sel_int <= TO_INTEGER(UNSIGNED(regn_wr_sel));
-		regn_wr_sel_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_a));
-		regn_wr_sel_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_b));
+		regn_wr_sel_a_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_a));
+		regn_wr_sel_b_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_b));
 		PROCESS ( nrst, clk_in )
 			BEGIN
 				IF nrst = '1' THEN

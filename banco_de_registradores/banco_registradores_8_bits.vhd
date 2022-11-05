@@ -20,20 +20,20 @@ ENTITY banco_registradores_8_bits IS
 		 --SAIDAS
 		 regn_do_a: OUT STD_LOGIC_VECTOR(7 DOWNTO 0) ;		--SAIDA A DADOS REGISTRADORES (0 a 7)
 		 regn_do_b: OUT STD_LOGIC_VECTOR(7 DOWNTO 0) ;  	--SAIDA B DADOS REGISTRADORES (0 a 7)
-		 regz_do :OUT STD_LOGIC_VECTOR(7 DOWNTO 0;			--SAIDA DADOS REGISTRADOR Z									
-		 regc_do: OUT STD_LOGIC_VECTOR(7 DOWNTO 0;			--SAIDA DADOS REGISTRADOR C
+		 regz_do :OUT STD_LOGIC_VECTOR(7 DOWNTO 0);			--SAIDA DADOS REGISTRADOR Z									
+		 regc_do: OUT STD_LOGIC_VECTOR(7 DOWNTO 0)			--SAIDA DADOS REGISTRADOR C
 		 ) ;
 	END banco_registradores_8_bits ;
 ARCHITECTURE Behavior OF banco_registradores_8_bits IS
 		TYPE mem_type IS ARRAY(0 TO 7) OF STD_LOGIC_VECTOR(7 DOWNTO 0);
 		SIGNAL mem_reg : mem_type;
-		SIGNAL regn_wr_sel_int : INTEGER RANGE 0 TO 7;
+		SIGNAL regn_wr_sel_int : INTEGER RANGE  0 TO 7;
 		SIGNAL regn_rd_sel_a_int: INTEGER RANGE 0 TO 2;
 		SIGNAL regn_rd_sel_b_int: INTEGER RANGE 0 TO 2;
 	BEGIN
 		regn_wr_sel_int <= TO_INTEGER(UNSIGNED(regn_wr_sel));
-		regn_wr_sel_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_a));
-		regn_wr_sel_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_b));
+		regn_rd_sel_a_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_a));
+		regn_rd_sel_b_int <= TO_INTEGER(UNSIGNED(regn_rd_sel_b));
 		PROCESS ( nrst, clk_in )
 			BEGIN
 				IF nrst = '1' THEN
