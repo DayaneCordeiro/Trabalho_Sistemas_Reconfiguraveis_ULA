@@ -1,5 +1,5 @@
 Simulator report for banco_registradores_8_bits
-Sat Nov 05 16:35:07 2022
+Sat Nov 12 12:32:55 2022
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -46,8 +46,8 @@ applicable agreement for further details.
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
 ; Simulation Netlist Size     ; 166 nodes    ;
-; Simulation Coverage         ;      41.46 % ;
-; Total Number of Transitions ; 461614       ;
+; Simulation Coverage         ;      94.51 % ;
+; Total Number of Transitions ; 70470        ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone II   ;
 ; Device                      ; EP2C35F672C6 ;
@@ -94,298 +94,209 @@ Please use Quartus II to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      41.46 % ;
+; Total coverage as a percentage                      ;      94.51 % ;
 ; Total nodes checked                                 ; 166          ;
 ; Total output ports checked                          ; 164          ;
-; Total output ports with complete 1/0-value coverage ; 68           ;
-; Total output ports with no 1/0-value coverage       ; 93           ;
-; Total output ports with no 1-value coverage         ; 95           ;
-; Total output ports with no 0-value coverage         ; 94           ;
+; Total output ports with complete 1/0-value coverage ; 155          ;
+; Total output ports with no 1/0-value coverage       ; 4            ;
+; Total output ports with no 1-value coverage         ; 4            ;
+; Total output ports with no 0-value coverage         ; 9            ;
 +-----------------------------------------------------+--------------+
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+-----------------------------------------------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                                                           ;
-+----------------------------------------------+-----------------------------------------------------+------------------+
-; Node Name                                    ; Output Port Name                                    ; Output Port Type ;
-+----------------------------------------------+-----------------------------------------------------+------------------+
-; |banco_registradores_8_bits|Mux7~0           ; |banco_registradores_8_bits|Mux7~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux7~1           ; |banco_registradores_8_bits|Mux7~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux6~0           ; |banco_registradores_8_bits|Mux6~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux6~1           ; |banco_registradores_8_bits|Mux6~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux5~0           ; |banco_registradores_8_bits|Mux5~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux5~1           ; |banco_registradores_8_bits|Mux5~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux4~0           ; |banco_registradores_8_bits|Mux4~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux4~1           ; |banco_registradores_8_bits|Mux4~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux3~0           ; |banco_registradores_8_bits|Mux3~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux3~1           ; |banco_registradores_8_bits|Mux3~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux2~0           ; |banco_registradores_8_bits|Mux2~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux2~1           ; |banco_registradores_8_bits|Mux2~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux1~0           ; |banco_registradores_8_bits|Mux1~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux1~1           ; |banco_registradores_8_bits|Mux1~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux0~0           ; |banco_registradores_8_bits|Mux0~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux0~1           ; |banco_registradores_8_bits|Mux0~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux15~0          ; |banco_registradores_8_bits|Mux15~0                 ; combout          ;
-; |banco_registradores_8_bits|Mux15~1          ; |banco_registradores_8_bits|Mux15~1                 ; combout          ;
-; |banco_registradores_8_bits|Mux14~0          ; |banco_registradores_8_bits|Mux14~0                 ; combout          ;
-; |banco_registradores_8_bits|Mux14~1          ; |banco_registradores_8_bits|Mux14~1                 ; combout          ;
-; |banco_registradores_8_bits|Mux13~0          ; |banco_registradores_8_bits|Mux13~0                 ; combout          ;
-; |banco_registradores_8_bits|Mux13~1          ; |banco_registradores_8_bits|Mux13~1                 ; combout          ;
-; |banco_registradores_8_bits|Mux12~0          ; |banco_registradores_8_bits|Mux12~0                 ; combout          ;
-; |banco_registradores_8_bits|Mux12~1          ; |banco_registradores_8_bits|Mux12~1                 ; combout          ;
-; |banco_registradores_8_bits|Mux11~0          ; |banco_registradores_8_bits|Mux11~0                 ; combout          ;
-; |banco_registradores_8_bits|Mux11~1          ; |banco_registradores_8_bits|Mux11~1                 ; combout          ;
-; |banco_registradores_8_bits|Mux10~0          ; |banco_registradores_8_bits|Mux10~0                 ; combout          ;
-; |banco_registradores_8_bits|Mux10~1          ; |banco_registradores_8_bits|Mux10~1                 ; combout          ;
-; |banco_registradores_8_bits|Mux9~0           ; |banco_registradores_8_bits|Mux9~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux9~1           ; |banco_registradores_8_bits|Mux9~1                  ; combout          ;
-; |banco_registradores_8_bits|Mux8~0           ; |banco_registradores_8_bits|Mux8~0                  ; combout          ;
-; |banco_registradores_8_bits|Mux8~1           ; |banco_registradores_8_bits|Mux8~1                  ; combout          ;
-; |banco_registradores_8_bits|Decoder0~0       ; |banco_registradores_8_bits|Decoder0~0              ; combout          ;
-; |banco_registradores_8_bits|Decoder0~1       ; |banco_registradores_8_bits|Decoder0~1              ; combout          ;
-; |banco_registradores_8_bits|Decoder0~2       ; |banco_registradores_8_bits|Decoder0~2              ; combout          ;
-; |banco_registradores_8_bits|Decoder0~3       ; |banco_registradores_8_bits|Decoder0~3              ; combout          ;
-; |banco_registradores_8_bits|regn_do_a[0]     ; |banco_registradores_8_bits|regn_do_a[0]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[1]     ; |banco_registradores_8_bits|regn_do_a[1]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[2]     ; |banco_registradores_8_bits|regn_do_a[2]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[3]     ; |banco_registradores_8_bits|regn_do_a[3]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[4]     ; |banco_registradores_8_bits|regn_do_a[4]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[5]     ; |banco_registradores_8_bits|regn_do_a[5]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[6]     ; |banco_registradores_8_bits|regn_do_a[6]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_a[7]     ; |banco_registradores_8_bits|regn_do_a[7]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[0]     ; |banco_registradores_8_bits|regn_do_b[0]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[1]     ; |banco_registradores_8_bits|regn_do_b[1]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[2]     ; |banco_registradores_8_bits|regn_do_b[2]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[3]     ; |banco_registradores_8_bits|regn_do_b[3]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[4]     ; |banco_registradores_8_bits|regn_do_b[4]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[5]     ; |banco_registradores_8_bits|regn_do_b[5]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[6]     ; |banco_registradores_8_bits|regn_do_b[6]            ; padio            ;
-; |banco_registradores_8_bits|regn_do_b[7]     ; |banco_registradores_8_bits|regn_do_b[7]            ; padio            ;
-; |banco_registradores_8_bits|regn_rd_sel_a[0] ; |banco_registradores_8_bits|regn_rd_sel_a[0]~corein ; combout          ;
-; |banco_registradores_8_bits|regn_rd_sel_a[1] ; |banco_registradores_8_bits|regn_rd_sel_a[1]~corein ; combout          ;
-; |banco_registradores_8_bits|regn_rd_sel_b[0] ; |banco_registradores_8_bits|regn_rd_sel_b[0]~corein ; combout          ;
-; |banco_registradores_8_bits|regn_rd_sel_b[1] ; |banco_registradores_8_bits|regn_rd_sel_b[1]~corein ; combout          ;
-; |banco_registradores_8_bits|regn_di[0]       ; |banco_registradores_8_bits|regn_di[0]~corein       ; combout          ;
-; |banco_registradores_8_bits|clk_in           ; |banco_registradores_8_bits|clk_in~corein           ; combout          ;
-; |banco_registradores_8_bits|regn_wr_sel[0]   ; |banco_registradores_8_bits|regn_wr_sel[0]~corein   ; combout          ;
-; |banco_registradores_8_bits|regn_wr_sel[1]   ; |banco_registradores_8_bits|regn_wr_sel[1]~corein   ; combout          ;
-; |banco_registradores_8_bits|regn_wr_sel[2]   ; |banco_registradores_8_bits|regn_wr_sel[2]~corein   ; combout          ;
-; |banco_registradores_8_bits|regn_di[1]       ; |banco_registradores_8_bits|regn_di[1]~corein       ; combout          ;
-; |banco_registradores_8_bits|regn_di[2]       ; |banco_registradores_8_bits|regn_di[2]~corein       ; combout          ;
-; |banco_registradores_8_bits|regn_di[3]       ; |banco_registradores_8_bits|regn_di[3]~corein       ; combout          ;
-; |banco_registradores_8_bits|regn_di[4]       ; |banco_registradores_8_bits|regn_di[4]~corein       ; combout          ;
-; |banco_registradores_8_bits|regn_di[5]       ; |banco_registradores_8_bits|regn_di[5]~corein       ; combout          ;
-; |banco_registradores_8_bits|regc_wr_ena      ; |banco_registradores_8_bits|regc_wr_ena~corein      ; combout          ;
-; |banco_registradores_8_bits|clk_in~clkctrl   ; |banco_registradores_8_bits|clk_in~clkctrl          ; outclk           ;
-+----------------------------------------------+-----------------------------------------------------+------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                ;
++---------------------------------------------------+-----------------------------------------------------+------------------+
+; Node Name                                         ; Output Port Name                                    ; Output Port Type ;
++---------------------------------------------------+-----------------------------------------------------+------------------+
+; |banco_registradores_8_bits|mem_reg[1][0]         ; |banco_registradores_8_bits|mem_reg[1][0]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[2][0]         ; |banco_registradores_8_bits|mem_reg[2][0]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][0]         ; |banco_registradores_8_bits|mem_reg[0][0]           ; regout           ;
+; |banco_registradores_8_bits|Mux7~0                ; |banco_registradores_8_bits|Mux7~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][0]         ; |banco_registradores_8_bits|mem_reg[3][0]           ; regout           ;
+; |banco_registradores_8_bits|Mux7~1                ; |banco_registradores_8_bits|Mux7~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[2][1]         ; |banco_registradores_8_bits|mem_reg[2][1]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[1][1]         ; |banco_registradores_8_bits|mem_reg[1][1]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][1]         ; |banco_registradores_8_bits|mem_reg[0][1]           ; regout           ;
+; |banco_registradores_8_bits|Mux6~0                ; |banco_registradores_8_bits|Mux6~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][1]         ; |banco_registradores_8_bits|mem_reg[3][1]           ; regout           ;
+; |banco_registradores_8_bits|Mux6~1                ; |banco_registradores_8_bits|Mux6~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[1][2]         ; |banco_registradores_8_bits|mem_reg[1][2]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][2]         ; |banco_registradores_8_bits|mem_reg[0][2]           ; regout           ;
+; |banco_registradores_8_bits|Mux5~0                ; |banco_registradores_8_bits|Mux5~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][2]         ; |banco_registradores_8_bits|mem_reg[3][2]           ; regout           ;
+; |banco_registradores_8_bits|Mux5~1                ; |banco_registradores_8_bits|Mux5~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[1][3]         ; |banco_registradores_8_bits|mem_reg[1][3]           ; regout           ;
+; |banco_registradores_8_bits|Mux4~0                ; |banco_registradores_8_bits|Mux4~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][3]         ; |banco_registradores_8_bits|mem_reg[3][3]           ; regout           ;
+; |banco_registradores_8_bits|Mux4~1                ; |banco_registradores_8_bits|Mux4~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[1][4]         ; |banco_registradores_8_bits|mem_reg[1][4]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[2][4]         ; |banco_registradores_8_bits|mem_reg[2][4]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][4]         ; |banco_registradores_8_bits|mem_reg[0][4]           ; regout           ;
+; |banco_registradores_8_bits|Mux3~0                ; |banco_registradores_8_bits|Mux3~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][4]         ; |banco_registradores_8_bits|mem_reg[3][4]           ; regout           ;
+; |banco_registradores_8_bits|Mux3~1                ; |banco_registradores_8_bits|Mux3~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[2][5]         ; |banco_registradores_8_bits|mem_reg[2][5]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[1][5]         ; |banco_registradores_8_bits|mem_reg[1][5]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][5]         ; |banco_registradores_8_bits|mem_reg[0][5]           ; regout           ;
+; |banco_registradores_8_bits|Mux2~0                ; |banco_registradores_8_bits|Mux2~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][5]         ; |banco_registradores_8_bits|mem_reg[3][5]           ; regout           ;
+; |banco_registradores_8_bits|Mux2~1                ; |banco_registradores_8_bits|Mux2~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[1][6]         ; |banco_registradores_8_bits|mem_reg[1][6]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][6]         ; |banco_registradores_8_bits|mem_reg[0][6]           ; regout           ;
+; |banco_registradores_8_bits|Mux1~0                ; |banco_registradores_8_bits|Mux1~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][6]         ; |banco_registradores_8_bits|mem_reg[3][6]           ; regout           ;
+; |banco_registradores_8_bits|Mux1~1                ; |banco_registradores_8_bits|Mux1~1                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[2][7]         ; |banco_registradores_8_bits|mem_reg[2][7]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[1][7]         ; |banco_registradores_8_bits|mem_reg[1][7]           ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][7]         ; |banco_registradores_8_bits|mem_reg[0][7]           ; regout           ;
+; |banco_registradores_8_bits|Mux0~0                ; |banco_registradores_8_bits|Mux0~0                  ; combout          ;
+; |banco_registradores_8_bits|mem_reg[3][7]         ; |banco_registradores_8_bits|mem_reg[3][7]           ; regout           ;
+; |banco_registradores_8_bits|Mux0~1                ; |banco_registradores_8_bits|Mux0~1                  ; combout          ;
+; |banco_registradores_8_bits|Mux15~0               ; |banco_registradores_8_bits|Mux15~0                 ; combout          ;
+; |banco_registradores_8_bits|Mux15~1               ; |banco_registradores_8_bits|Mux15~1                 ; combout          ;
+; |banco_registradores_8_bits|Mux14~0               ; |banco_registradores_8_bits|Mux14~0                 ; combout          ;
+; |banco_registradores_8_bits|Mux14~1               ; |banco_registradores_8_bits|Mux14~1                 ; combout          ;
+; |banco_registradores_8_bits|Mux13~0               ; |banco_registradores_8_bits|Mux13~0                 ; combout          ;
+; |banco_registradores_8_bits|Mux13~1               ; |banco_registradores_8_bits|Mux13~1                 ; combout          ;
+; |banco_registradores_8_bits|Mux12~0               ; |banco_registradores_8_bits|Mux12~0                 ; combout          ;
+; |banco_registradores_8_bits|Mux12~1               ; |banco_registradores_8_bits|Mux12~1                 ; combout          ;
+; |banco_registradores_8_bits|Mux11~0               ; |banco_registradores_8_bits|Mux11~0                 ; combout          ;
+; |banco_registradores_8_bits|Mux11~1               ; |banco_registradores_8_bits|Mux11~1                 ; combout          ;
+; |banco_registradores_8_bits|Mux10~0               ; |banco_registradores_8_bits|Mux10~0                 ; combout          ;
+; |banco_registradores_8_bits|Mux10~1               ; |banco_registradores_8_bits|Mux10~1                 ; combout          ;
+; |banco_registradores_8_bits|Mux9~0                ; |banco_registradores_8_bits|Mux9~0                  ; combout          ;
+; |banco_registradores_8_bits|Mux9~1                ; |banco_registradores_8_bits|Mux9~1                  ; combout          ;
+; |banco_registradores_8_bits|Mux8~0                ; |banco_registradores_8_bits|Mux8~0                  ; combout          ;
+; |banco_registradores_8_bits|Mux8~1                ; |banco_registradores_8_bits|Mux8~1                  ; combout          ;
+; |banco_registradores_8_bits|regz_do[0]~reg0       ; |banco_registradores_8_bits|regz_do[0]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[1]~reg0       ; |banco_registradores_8_bits|regz_do[1]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[2]~reg0       ; |banco_registradores_8_bits|regz_do[2]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[3]~reg0       ; |banco_registradores_8_bits|regz_do[3]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[4]~reg0       ; |banco_registradores_8_bits|regz_do[4]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[5]~reg0       ; |banco_registradores_8_bits|regz_do[5]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[6]~reg0       ; |banco_registradores_8_bits|regz_do[6]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regz_do[7]~reg0       ; |banco_registradores_8_bits|regz_do[7]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[0]~reg0       ; |banco_registradores_8_bits|regc_do[0]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[1]~reg0       ; |banco_registradores_8_bits|regc_do[1]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[2]~reg0       ; |banco_registradores_8_bits|regc_do[2]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[3]~reg0       ; |banco_registradores_8_bits|regc_do[3]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[4]~reg0       ; |banco_registradores_8_bits|regc_do[4]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[5]~reg0       ; |banco_registradores_8_bits|regc_do[5]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[6]~reg0       ; |banco_registradores_8_bits|regc_do[6]~reg0         ; regout           ;
+; |banco_registradores_8_bits|regc_do[7]~reg0       ; |banco_registradores_8_bits|regc_do[7]~reg0         ; regout           ;
+; |banco_registradores_8_bits|Decoder0~0            ; |banco_registradores_8_bits|Decoder0~0              ; combout          ;
+; |banco_registradores_8_bits|Decoder0~1            ; |banco_registradores_8_bits|Decoder0~1              ; combout          ;
+; |banco_registradores_8_bits|Decoder0~2            ; |banco_registradores_8_bits|Decoder0~2              ; combout          ;
+; |banco_registradores_8_bits|Decoder0~3            ; |banco_registradores_8_bits|Decoder0~3              ; combout          ;
+; |banco_registradores_8_bits|regn_do_a[0]          ; |banco_registradores_8_bits|regn_do_a[0]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[1]          ; |banco_registradores_8_bits|regn_do_a[1]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[2]          ; |banco_registradores_8_bits|regn_do_a[2]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[3]          ; |banco_registradores_8_bits|regn_do_a[3]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[4]          ; |banco_registradores_8_bits|regn_do_a[4]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[5]          ; |banco_registradores_8_bits|regn_do_a[5]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[6]          ; |banco_registradores_8_bits|regn_do_a[6]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_a[7]          ; |banco_registradores_8_bits|regn_do_a[7]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[0]          ; |banco_registradores_8_bits|regn_do_b[0]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[1]          ; |banco_registradores_8_bits|regn_do_b[1]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[2]          ; |banco_registradores_8_bits|regn_do_b[2]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[3]          ; |banco_registradores_8_bits|regn_do_b[3]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[4]          ; |banco_registradores_8_bits|regn_do_b[4]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[5]          ; |banco_registradores_8_bits|regn_do_b[5]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[6]          ; |banco_registradores_8_bits|regn_do_b[6]            ; padio            ;
+; |banco_registradores_8_bits|regn_do_b[7]          ; |banco_registradores_8_bits|regn_do_b[7]            ; padio            ;
+; |banco_registradores_8_bits|regz_do[0]            ; |banco_registradores_8_bits|regz_do[0]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[1]            ; |banco_registradores_8_bits|regz_do[1]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[2]            ; |banco_registradores_8_bits|regz_do[2]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[3]            ; |banco_registradores_8_bits|regz_do[3]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[4]            ; |banco_registradores_8_bits|regz_do[4]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[5]            ; |banco_registradores_8_bits|regz_do[5]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[6]            ; |banco_registradores_8_bits|regz_do[6]              ; padio            ;
+; |banco_registradores_8_bits|regz_do[7]            ; |banco_registradores_8_bits|regz_do[7]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[0]            ; |banco_registradores_8_bits|regc_do[0]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[1]            ; |banco_registradores_8_bits|regc_do[1]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[2]            ; |banco_registradores_8_bits|regc_do[2]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[3]            ; |banco_registradores_8_bits|regc_do[3]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[4]            ; |banco_registradores_8_bits|regc_do[4]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[5]            ; |banco_registradores_8_bits|regc_do[5]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[6]            ; |banco_registradores_8_bits|regc_do[6]              ; padio            ;
+; |banco_registradores_8_bits|regc_do[7]            ; |banco_registradores_8_bits|regc_do[7]              ; padio            ;
+; |banco_registradores_8_bits|regn_rd_sel_a[0]      ; |banco_registradores_8_bits|regn_rd_sel_a[0]~corein ; combout          ;
+; |banco_registradores_8_bits|regn_rd_sel_a[1]      ; |banco_registradores_8_bits|regn_rd_sel_a[1]~corein ; combout          ;
+; |banco_registradores_8_bits|regn_rd_sel_b[0]      ; |banco_registradores_8_bits|regn_rd_sel_b[0]~corein ; combout          ;
+; |banco_registradores_8_bits|regn_rd_sel_b[1]      ; |banco_registradores_8_bits|regn_rd_sel_b[1]~corein ; combout          ;
+; |banco_registradores_8_bits|regn_di[0]            ; |banco_registradores_8_bits|regn_di[0]~corein       ; combout          ;
+; |banco_registradores_8_bits|clk_in                ; |banco_registradores_8_bits|clk_in~corein           ; combout          ;
+; |banco_registradores_8_bits|regn_wr_sel[0]        ; |banco_registradores_8_bits|regn_wr_sel[0]~corein   ; combout          ;
+; |banco_registradores_8_bits|regn_wr_sel[1]        ; |banco_registradores_8_bits|regn_wr_sel[1]~corein   ; combout          ;
+; |banco_registradores_8_bits|regn_wr_sel[2]        ; |banco_registradores_8_bits|regn_wr_sel[2]~corein   ; combout          ;
+; |banco_registradores_8_bits|regn_di[1]            ; |banco_registradores_8_bits|regn_di[1]~corein       ; combout          ;
+; |banco_registradores_8_bits|regn_di[2]            ; |banco_registradores_8_bits|regn_di[2]~corein       ; combout          ;
+; |banco_registradores_8_bits|regn_di[3]            ; |banco_registradores_8_bits|regn_di[3]~corein       ; combout          ;
+; |banco_registradores_8_bits|regn_di[4]            ; |banco_registradores_8_bits|regn_di[4]~corein       ; combout          ;
+; |banco_registradores_8_bits|regn_di[5]            ; |banco_registradores_8_bits|regn_di[5]~corein       ; combout          ;
+; |banco_registradores_8_bits|regn_di[6]            ; |banco_registradores_8_bits|regn_di[6]~corein       ; combout          ;
+; |banco_registradores_8_bits|regn_di[7]            ; |banco_registradores_8_bits|regn_di[7]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[0]            ; |banco_registradores_8_bits|regz_di[0]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[1]            ; |banco_registradores_8_bits|regz_di[1]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[2]            ; |banco_registradores_8_bits|regz_di[2]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[3]            ; |banco_registradores_8_bits|regz_di[3]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[4]            ; |banco_registradores_8_bits|regz_di[4]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[5]            ; |banco_registradores_8_bits|regz_di[5]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[6]            ; |banco_registradores_8_bits|regz_di[6]~corein       ; combout          ;
+; |banco_registradores_8_bits|regz_di[7]            ; |banco_registradores_8_bits|regz_di[7]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[0]            ; |banco_registradores_8_bits|regc_di[0]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[1]            ; |banco_registradores_8_bits|regc_di[1]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[2]            ; |banco_registradores_8_bits|regc_di[2]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[3]            ; |banco_registradores_8_bits|regc_di[3]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[4]            ; |banco_registradores_8_bits|regc_di[4]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[5]            ; |banco_registradores_8_bits|regc_di[5]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[6]            ; |banco_registradores_8_bits|regc_di[6]~corein       ; combout          ;
+; |banco_registradores_8_bits|regc_di[7]            ; |banco_registradores_8_bits|regc_di[7]~corein       ; combout          ;
+; |banco_registradores_8_bits|clk_in~clkctrl        ; |banco_registradores_8_bits|clk_in~clkctrl          ; outclk           ;
+; |banco_registradores_8_bits|regz_do[0]~reg0feeder ; |banco_registradores_8_bits|regz_do[0]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regz_do[1]~reg0feeder ; |banco_registradores_8_bits|regz_do[1]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regz_do[2]~reg0feeder ; |banco_registradores_8_bits|regz_do[2]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regz_do[4]~reg0feeder ; |banco_registradores_8_bits|regz_do[4]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regz_do[5]~reg0feeder ; |banco_registradores_8_bits|regz_do[5]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regc_do[1]~reg0feeder ; |banco_registradores_8_bits|regc_do[1]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regc_do[2]~reg0feeder ; |banco_registradores_8_bits|regc_do[2]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regc_do[3]~reg0feeder ; |banco_registradores_8_bits|regc_do[3]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regc_do[4]~reg0feeder ; |banco_registradores_8_bits|regc_do[4]~reg0feeder   ; combout          ;
+; |banco_registradores_8_bits|regc_do[5]~reg0feeder ; |banco_registradores_8_bits|regc_do[5]~reg0feeder   ; combout          ;
++---------------------------------------------------+-----------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+--------------------------------------------------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                                                                 ;
-+---------------------------------------------------+---------------------------------------------------+------------------+
-; Node Name                                         ; Output Port Name                                  ; Output Port Type ;
-+---------------------------------------------------+---------------------------------------------------+------------------+
-; |banco_registradores_8_bits|mem_reg[1][0]         ; |banco_registradores_8_bits|mem_reg[1][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][0]         ; |banco_registradores_8_bits|mem_reg[2][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][0]         ; |banco_registradores_8_bits|mem_reg[0][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][0]         ; |banco_registradores_8_bits|mem_reg[3][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][1]         ; |banco_registradores_8_bits|mem_reg[2][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][1]         ; |banco_registradores_8_bits|mem_reg[1][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][1]         ; |banco_registradores_8_bits|mem_reg[0][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][1]         ; |banco_registradores_8_bits|mem_reg[3][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][2]         ; |banco_registradores_8_bits|mem_reg[1][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][2]         ; |banco_registradores_8_bits|mem_reg[2][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][2]         ; |banco_registradores_8_bits|mem_reg[0][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][2]         ; |banco_registradores_8_bits|mem_reg[3][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][3]         ; |banco_registradores_8_bits|mem_reg[2][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][3]         ; |banco_registradores_8_bits|mem_reg[1][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][3]         ; |banco_registradores_8_bits|mem_reg[0][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][3]         ; |banco_registradores_8_bits|mem_reg[3][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][4]         ; |banco_registradores_8_bits|mem_reg[1][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][4]         ; |banco_registradores_8_bits|mem_reg[2][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][4]         ; |banco_registradores_8_bits|mem_reg[0][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][4]         ; |banco_registradores_8_bits|mem_reg[3][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][5]         ; |banco_registradores_8_bits|mem_reg[2][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][5]         ; |banco_registradores_8_bits|mem_reg[1][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][5]         ; |banco_registradores_8_bits|mem_reg[0][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][5]         ; |banco_registradores_8_bits|mem_reg[3][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][6]         ; |banco_registradores_8_bits|mem_reg[1][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][6]         ; |banco_registradores_8_bits|mem_reg[2][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][6]         ; |banco_registradores_8_bits|mem_reg[0][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][6]         ; |banco_registradores_8_bits|mem_reg[3][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][7]         ; |banco_registradores_8_bits|mem_reg[2][7]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][7]         ; |banco_registradores_8_bits|mem_reg[1][7]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][7]         ; |banco_registradores_8_bits|mem_reg[0][7]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][7]         ; |banco_registradores_8_bits|mem_reg[3][7]         ; regout           ;
-; |banco_registradores_8_bits|regz_do[0]~reg0       ; |banco_registradores_8_bits|regz_do[0]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[1]~reg0       ; |banco_registradores_8_bits|regz_do[1]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[2]~reg0       ; |banco_registradores_8_bits|regz_do[2]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[3]~reg0       ; |banco_registradores_8_bits|regz_do[3]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[4]~reg0       ; |banco_registradores_8_bits|regz_do[4]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[5]~reg0       ; |banco_registradores_8_bits|regz_do[5]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[6]~reg0       ; |banco_registradores_8_bits|regz_do[6]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[7]~reg0       ; |banco_registradores_8_bits|regz_do[7]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[0]~reg0       ; |banco_registradores_8_bits|regc_do[0]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[1]~reg0       ; |banco_registradores_8_bits|regc_do[1]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[2]~reg0       ; |banco_registradores_8_bits|regc_do[2]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[3]~reg0       ; |banco_registradores_8_bits|regc_do[3]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[4]~reg0       ; |banco_registradores_8_bits|regc_do[4]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[5]~reg0       ; |banco_registradores_8_bits|regc_do[5]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[6]~reg0       ; |banco_registradores_8_bits|regc_do[6]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[7]~reg0       ; |banco_registradores_8_bits|regc_do[7]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[0]            ; |banco_registradores_8_bits|regz_do[0]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[1]            ; |banco_registradores_8_bits|regz_do[1]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[2]            ; |banco_registradores_8_bits|regz_do[2]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[3]            ; |banco_registradores_8_bits|regz_do[3]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[4]            ; |banco_registradores_8_bits|regz_do[4]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[5]            ; |banco_registradores_8_bits|regz_do[5]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[6]            ; |banco_registradores_8_bits|regz_do[6]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[7]            ; |banco_registradores_8_bits|regz_do[7]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[0]            ; |banco_registradores_8_bits|regc_do[0]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[1]            ; |banco_registradores_8_bits|regc_do[1]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[2]            ; |banco_registradores_8_bits|regc_do[2]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[3]            ; |banco_registradores_8_bits|regc_do[3]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[4]            ; |banco_registradores_8_bits|regc_do[4]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[5]            ; |banco_registradores_8_bits|regc_do[5]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[6]            ; |banco_registradores_8_bits|regc_do[6]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[7]            ; |banco_registradores_8_bits|regc_do[7]            ; padio            ;
-; |banco_registradores_8_bits|nrst                  ; |banco_registradores_8_bits|nrst~corein           ; combout          ;
-; |banco_registradores_8_bits|regn_wr_ena           ; |banco_registradores_8_bits|regn_wr_ena~corein    ; combout          ;
-; |banco_registradores_8_bits|regn_di[7]            ; |banco_registradores_8_bits|regn_di[7]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[0]            ; |banco_registradores_8_bits|regz_di[0]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_wr_ena           ; |banco_registradores_8_bits|regz_wr_ena~corein    ; combout          ;
-; |banco_registradores_8_bits|regz_di[1]            ; |banco_registradores_8_bits|regz_di[1]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[2]            ; |banco_registradores_8_bits|regz_di[2]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[3]            ; |banco_registradores_8_bits|regz_di[3]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[4]            ; |banco_registradores_8_bits|regz_di[4]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[5]            ; |banco_registradores_8_bits|regz_di[5]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[6]            ; |banco_registradores_8_bits|regz_di[6]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[7]            ; |banco_registradores_8_bits|regz_di[7]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[0]            ; |banco_registradores_8_bits|regc_di[0]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[1]            ; |banco_registradores_8_bits|regc_di[1]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[2]            ; |banco_registradores_8_bits|regc_di[2]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[3]            ; |banco_registradores_8_bits|regc_di[3]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[4]            ; |banco_registradores_8_bits|regc_di[4]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[5]            ; |banco_registradores_8_bits|regc_di[5]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[6]            ; |banco_registradores_8_bits|regc_di[6]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[7]            ; |banco_registradores_8_bits|regc_di[7]~corein     ; combout          ;
-; |banco_registradores_8_bits|nrst~clkctrl          ; |banco_registradores_8_bits|nrst~clkctrl          ; outclk           ;
-; |banco_registradores_8_bits|regz_do[0]~reg0feeder ; |banco_registradores_8_bits|regz_do[0]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[1]~reg0feeder ; |banco_registradores_8_bits|regz_do[1]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[2]~reg0feeder ; |banco_registradores_8_bits|regz_do[2]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[4]~reg0feeder ; |banco_registradores_8_bits|regz_do[4]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[5]~reg0feeder ; |banco_registradores_8_bits|regz_do[5]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[1]~reg0feeder ; |banco_registradores_8_bits|regc_do[1]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[2]~reg0feeder ; |banco_registradores_8_bits|regc_do[2]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[3]~reg0feeder ; |banco_registradores_8_bits|regc_do[3]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[4]~reg0feeder ; |banco_registradores_8_bits|regc_do[4]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[5]~reg0feeder ; |banco_registradores_8_bits|regc_do[5]~reg0feeder ; combout          ;
-+---------------------------------------------------+---------------------------------------------------+------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                      ;
++-------------------------------------------+------------------------------------------------+------------------+
+; Node Name                                 ; Output Port Name                               ; Output Port Type ;
++-------------------------------------------+------------------------------------------------+------------------+
+; |banco_registradores_8_bits|mem_reg[2][3] ; |banco_registradores_8_bits|mem_reg[2][3]      ; regout           ;
+; |banco_registradores_8_bits|regn_wr_ena   ; |banco_registradores_8_bits|regn_wr_ena~corein ; combout          ;
+; |banco_registradores_8_bits|regz_wr_ena   ; |banco_registradores_8_bits|regz_wr_ena~corein ; combout          ;
+; |banco_registradores_8_bits|regc_wr_ena   ; |banco_registradores_8_bits|regc_wr_ena~corein ; combout          ;
++-------------------------------------------+------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+--------------------------------------------------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                                                                 ;
-+---------------------------------------------------+---------------------------------------------------+------------------+
-; Node Name                                         ; Output Port Name                                  ; Output Port Type ;
-+---------------------------------------------------+---------------------------------------------------+------------------+
-; |banco_registradores_8_bits|mem_reg[1][0]         ; |banco_registradores_8_bits|mem_reg[1][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][0]         ; |banco_registradores_8_bits|mem_reg[2][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][0]         ; |banco_registradores_8_bits|mem_reg[0][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][0]         ; |banco_registradores_8_bits|mem_reg[3][0]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][1]         ; |banco_registradores_8_bits|mem_reg[2][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][1]         ; |banco_registradores_8_bits|mem_reg[1][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][1]         ; |banco_registradores_8_bits|mem_reg[0][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][1]         ; |banco_registradores_8_bits|mem_reg[3][1]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][2]         ; |banco_registradores_8_bits|mem_reg[1][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][2]         ; |banco_registradores_8_bits|mem_reg[2][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][2]         ; |banco_registradores_8_bits|mem_reg[0][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][2]         ; |banco_registradores_8_bits|mem_reg[3][2]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][3]         ; |banco_registradores_8_bits|mem_reg[2][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][3]         ; |banco_registradores_8_bits|mem_reg[1][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][3]         ; |banco_registradores_8_bits|mem_reg[0][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][3]         ; |banco_registradores_8_bits|mem_reg[3][3]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][4]         ; |banco_registradores_8_bits|mem_reg[1][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][4]         ; |banco_registradores_8_bits|mem_reg[2][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][4]         ; |banco_registradores_8_bits|mem_reg[0][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][4]         ; |banco_registradores_8_bits|mem_reg[3][4]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][5]         ; |banco_registradores_8_bits|mem_reg[2][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][5]         ; |banco_registradores_8_bits|mem_reg[1][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][5]         ; |banco_registradores_8_bits|mem_reg[0][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][5]         ; |banco_registradores_8_bits|mem_reg[3][5]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][6]         ; |banco_registradores_8_bits|mem_reg[1][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][6]         ; |banco_registradores_8_bits|mem_reg[2][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][6]         ; |banco_registradores_8_bits|mem_reg[0][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][6]         ; |banco_registradores_8_bits|mem_reg[3][6]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[2][7]         ; |banco_registradores_8_bits|mem_reg[2][7]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[1][7]         ; |banco_registradores_8_bits|mem_reg[1][7]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[0][7]         ; |banco_registradores_8_bits|mem_reg[0][7]         ; regout           ;
-; |banco_registradores_8_bits|mem_reg[3][7]         ; |banco_registradores_8_bits|mem_reg[3][7]         ; regout           ;
-; |banco_registradores_8_bits|regz_do[0]~reg0       ; |banco_registradores_8_bits|regz_do[0]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[1]~reg0       ; |banco_registradores_8_bits|regz_do[1]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[2]~reg0       ; |banco_registradores_8_bits|regz_do[2]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[3]~reg0       ; |banco_registradores_8_bits|regz_do[3]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[4]~reg0       ; |banco_registradores_8_bits|regz_do[4]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[5]~reg0       ; |banco_registradores_8_bits|regz_do[5]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[6]~reg0       ; |banco_registradores_8_bits|regz_do[6]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[7]~reg0       ; |banco_registradores_8_bits|regz_do[7]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[0]~reg0       ; |banco_registradores_8_bits|regc_do[0]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[1]~reg0       ; |banco_registradores_8_bits|regc_do[1]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[2]~reg0       ; |banco_registradores_8_bits|regc_do[2]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[3]~reg0       ; |banco_registradores_8_bits|regc_do[3]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[4]~reg0       ; |banco_registradores_8_bits|regc_do[4]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[5]~reg0       ; |banco_registradores_8_bits|regc_do[5]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[6]~reg0       ; |banco_registradores_8_bits|regc_do[6]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regc_do[7]~reg0       ; |banco_registradores_8_bits|regc_do[7]~reg0       ; regout           ;
-; |banco_registradores_8_bits|regz_do[0]            ; |banco_registradores_8_bits|regz_do[0]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[1]            ; |banco_registradores_8_bits|regz_do[1]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[2]            ; |banco_registradores_8_bits|regz_do[2]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[3]            ; |banco_registradores_8_bits|regz_do[3]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[4]            ; |banco_registradores_8_bits|regz_do[4]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[5]            ; |banco_registradores_8_bits|regz_do[5]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[6]            ; |banco_registradores_8_bits|regz_do[6]            ; padio            ;
-; |banco_registradores_8_bits|regz_do[7]            ; |banco_registradores_8_bits|regz_do[7]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[0]            ; |banco_registradores_8_bits|regc_do[0]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[1]            ; |banco_registradores_8_bits|regc_do[1]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[2]            ; |banco_registradores_8_bits|regc_do[2]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[3]            ; |banco_registradores_8_bits|regc_do[3]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[4]            ; |banco_registradores_8_bits|regc_do[4]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[5]            ; |banco_registradores_8_bits|regc_do[5]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[6]            ; |banco_registradores_8_bits|regc_do[6]            ; padio            ;
-; |banco_registradores_8_bits|regc_do[7]            ; |banco_registradores_8_bits|regc_do[7]            ; padio            ;
-; |banco_registradores_8_bits|regn_wr_ena           ; |banco_registradores_8_bits|regn_wr_ena~corein    ; combout          ;
-; |banco_registradores_8_bits|regn_di[6]            ; |banco_registradores_8_bits|regn_di[6]~corein     ; combout          ;
-; |banco_registradores_8_bits|regn_di[7]            ; |banco_registradores_8_bits|regn_di[7]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[0]            ; |banco_registradores_8_bits|regz_di[0]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_wr_ena           ; |banco_registradores_8_bits|regz_wr_ena~corein    ; combout          ;
-; |banco_registradores_8_bits|regz_di[1]            ; |banco_registradores_8_bits|regz_di[1]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[2]            ; |banco_registradores_8_bits|regz_di[2]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[3]            ; |banco_registradores_8_bits|regz_di[3]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[4]            ; |banco_registradores_8_bits|regz_di[4]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[5]            ; |banco_registradores_8_bits|regz_di[5]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[6]            ; |banco_registradores_8_bits|regz_di[6]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_di[7]            ; |banco_registradores_8_bits|regz_di[7]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[0]            ; |banco_registradores_8_bits|regc_di[0]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[1]            ; |banco_registradores_8_bits|regc_di[1]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[2]            ; |banco_registradores_8_bits|regc_di[2]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[3]            ; |banco_registradores_8_bits|regc_di[3]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[4]            ; |banco_registradores_8_bits|regc_di[4]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[5]            ; |banco_registradores_8_bits|regc_di[5]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[6]            ; |banco_registradores_8_bits|regc_di[6]~corein     ; combout          ;
-; |banco_registradores_8_bits|regc_di[7]            ; |banco_registradores_8_bits|regc_di[7]~corein     ; combout          ;
-; |banco_registradores_8_bits|regz_do[0]~reg0feeder ; |banco_registradores_8_bits|regz_do[0]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[1]~reg0feeder ; |banco_registradores_8_bits|regz_do[1]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[2]~reg0feeder ; |banco_registradores_8_bits|regz_do[2]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[4]~reg0feeder ; |banco_registradores_8_bits|regz_do[4]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regz_do[5]~reg0feeder ; |banco_registradores_8_bits|regz_do[5]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[1]~reg0feeder ; |banco_registradores_8_bits|regc_do[1]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[2]~reg0feeder ; |banco_registradores_8_bits|regc_do[2]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[3]~reg0feeder ; |banco_registradores_8_bits|regc_do[3]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[4]~reg0feeder ; |banco_registradores_8_bits|regc_do[4]~reg0feeder ; combout          ;
-; |banco_registradores_8_bits|regc_do[5]~reg0feeder ; |banco_registradores_8_bits|regc_do[5]~reg0feeder ; combout          ;
-+---------------------------------------------------+---------------------------------------------------+------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                      ;
++-------------------------------------------+------------------------------------------------+------------------+
+; Node Name                                 ; Output Port Name                               ; Output Port Type ;
++-------------------------------------------+------------------------------------------------+------------------+
+; |banco_registradores_8_bits|mem_reg[2][2] ; |banco_registradores_8_bits|mem_reg[2][2]      ; regout           ;
+; |banco_registradores_8_bits|mem_reg[2][3] ; |banco_registradores_8_bits|mem_reg[2][3]      ; regout           ;
+; |banco_registradores_8_bits|mem_reg[0][3] ; |banco_registradores_8_bits|mem_reg[0][3]      ; regout           ;
+; |banco_registradores_8_bits|mem_reg[2][6] ; |banco_registradores_8_bits|mem_reg[2][6]      ; regout           ;
+; |banco_registradores_8_bits|nrst          ; |banco_registradores_8_bits|nrst~corein        ; combout          ;
+; |banco_registradores_8_bits|regn_wr_ena   ; |banco_registradores_8_bits|regn_wr_ena~corein ; combout          ;
+; |banco_registradores_8_bits|regz_wr_ena   ; |banco_registradores_8_bits|regz_wr_ena~corein ; combout          ;
+; |banco_registradores_8_bits|regc_wr_ena   ; |banco_registradores_8_bits|regc_wr_ena~corein ; combout          ;
+; |banco_registradores_8_bits|nrst~clkctrl  ; |banco_registradores_8_bits|nrst~clkctrl       ; outclk           ;
++-------------------------------------------+------------------------------------------------+------------------+
 
 
 +---------------------+
@@ -401,1022 +312,21 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sat Nov 05 16:35:06 2022
+    Info: Processing started: Sat Nov 12 12:32:55 2022
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off banco_registradores_8_bits -c banco_registradores_8_bits
 Info: Using vector source file "C:/Users/Pedro/Documents/GitHub/Trabalho_Sistemas_Reconfiguraveis_ULA/banco_de_registradores/banco_registradores_8_bits.vwf"
 Info: Overwriting simulation input file with simulation results
     Info: A backup of banco_registradores_8_bits.vwf called banco_registradores_8_bits.sim_ori.vwf has been created in the db folder
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.22 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.24 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.3 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.32 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.38 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.4 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.46 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.48 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.54 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.56 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.62 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.64 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.7 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.72 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.78 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.8 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.86 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.88 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 5.94 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 5.96 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.02 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.04 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.1 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.12 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.18 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.2 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.26 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.28 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.34 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.36 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.42 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.44 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.5 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.52 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.58 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.6 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.66 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.68 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.74 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.76 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.82 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.84 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.9 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 6.92 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 6.98 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.0 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.06 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.08 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.14 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.16 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.22 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.24 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.3 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.32 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.38 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.4 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.46 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.48 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.54 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.56 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.62 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.64 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.7 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.72 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.78 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.8 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.86 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.88 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 7.94 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 7.96 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.02 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.04 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.1 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.12 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.18 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.2 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.26 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.28 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.34 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.36 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.42 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.44 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.5 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.52 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.58 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.6 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.66 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.68 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.74 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.76 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.82 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.84 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.9 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 8.92 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 8.98 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.0 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.06 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.08 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.14 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.16 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.22 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.24 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.3 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.32 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.38 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.4 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.46 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.48 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.54 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.56 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.62 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.64 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.7 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.72 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.78 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.8 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.86 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.88 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 9.94 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][0]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][1]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][2]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][3]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][4]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][5]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][6]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[0][7]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[1][4]"
-Warning: Found clock high time violation at 9.96 ns on register "|banco_registradores_8_bits|mem_reg[1][6]"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 10.02 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 10.04 ns on register "|banco_registradores_8_bits|mem_reg[1][4]"
-Warning: Found clock high time violation at 10.04 ns on register "|banco_registradores_8_bits|mem_reg[1][6]"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 10.1 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 10.12 ns on register "|banco_registradores_8_bits|mem_reg[1][4]"
-Warning: Found clock high time violation at 10.12 ns on register "|banco_registradores_8_bits|mem_reg[1][6]"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 10.18 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Warning: Found clock high time violation at 10.2 ns on register "|banco_registradores_8_bits|mem_reg[1][4]"
-Warning: Found clock high time violation at 10.2 ns on register "|banco_registradores_8_bits|mem_reg[1][6]"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[0]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[1]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[2]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[3]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[4]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[5]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[6]~reg0"
-Warning: Found clock high time violation at 10.26 ns on register "|banco_registradores_8_bits|regz_do[7]~reg0"
-Info: Detected more than 1000 clock time violations -- stopped clock time violation reporting
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is      41.46 %
-Info: Number of transitions in simulation is 461614
+Info: Simulation coverage is      94.51 %
+Info: Number of transitions in simulation is 70470
 Info: Vector file banco_registradores_8_bits.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
-Info: Quartus II Simulator was successful. 0 errors, 1000 warnings
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 149 megabytes
-    Info: Processing ended: Sat Nov 05 16:35:07 2022
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Processing ended: Sat Nov 12 12:32:55 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

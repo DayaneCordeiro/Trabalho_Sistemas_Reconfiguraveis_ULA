@@ -31,7 +31,7 @@ ON
 # case_insensitive
 # source_file
 banco_registradores_8_bits.vhd
-9a65cf63ed43b4ac1316394dc2c4684
+6b2166f34642622feeed4dd55c82bc
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT

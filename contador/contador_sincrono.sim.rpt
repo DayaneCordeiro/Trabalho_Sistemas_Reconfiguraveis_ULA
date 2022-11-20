@@ -1,0 +1,314 @@
+Simulator report for contador_sincrono
+Sat Nov 12 23:36:58 2022
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 96 nodes     ;
+; Simulation Coverage         ;      50.94 % ;
+; Total Number of Transitions ; 2514         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C35F672C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      50.94 % ;
+; Total nodes checked                                 ; 96           ;
+; Total output ports checked                          ; 106          ;
+; Total output ports with complete 1/0-value coverage ; 54           ;
+; Total output ports with no 1/0-value coverage       ; 44           ;
+; Total output ports with no 1-value coverage         ; 44           ;
+; Total output ports with no 0-value coverage         ; 52           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                      ;
++-----------------------------------------------+-----------------------------------------------+------------------+
+; Node Name                                     ; Output Port Name                              ; Output Port Type ;
++-----------------------------------------------+-----------------------------------------------+------------------+
+; |contador_sincrono|Add0~0                     ; |contador_sincrono|Add0~0                     ; combout          ;
+; |contador_sincrono|Add0~0                     ; |contador_sincrono|Add0~1                     ; cout             ;
+; |contador_sincrono|Add0~2                     ; |contador_sincrono|Add0~2                     ; combout          ;
+; |contador_sincrono|Add0~2                     ; |contador_sincrono|Add0~3                     ; cout             ;
+; |contador_sincrono|Add0~4                     ; |contador_sincrono|Add0~4                     ; combout          ;
+; |contador_sincrono|Add0~4                     ; |contador_sincrono|Add0~5                     ; cout             ;
+; |contador_sincrono|Add0~6                     ; |contador_sincrono|Add0~6                     ; combout          ;
+; |contador_sincrono|Add0~6                     ; |contador_sincrono|Add0~7                     ; cout             ;
+; |contador_sincrono|Add0~8                     ; |contador_sincrono|Add0~8                     ; combout          ;
+; |contador_sincrono|Add0~8                     ; |contador_sincrono|Add0~9                     ; cout             ;
+; |contador_sincrono|Add0~10                    ; |contador_sincrono|Add0~10                    ; combout          ;
+; |contador_sincrono|Add0~10                    ; |contador_sincrono|Add0~11                    ; cout             ;
+; |contador_sincrono|Add0~12                    ; |contador_sincrono|Add0~12                    ; combout          ;
+; |contador_sincrono|next_cnt_out[0]~reg0       ; |contador_sincrono|next_cnt_out[0]~reg0       ; regout           ;
+; |contador_sincrono|next_cnt_out[1]~reg0       ; |contador_sincrono|next_cnt_out[1]~reg0       ; regout           ;
+; |contador_sincrono|next_cnt_out[2]~reg0       ; |contador_sincrono|next_cnt_out[2]~reg0       ; regout           ;
+; |contador_sincrono|next_cnt_out[3]~reg0       ; |contador_sincrono|next_cnt_out[3]~reg0       ; regout           ;
+; |contador_sincrono|next_cnt_out[4]~reg0       ; |contador_sincrono|next_cnt_out[4]~reg0       ; regout           ;
+; |contador_sincrono|int_aux[0]                 ; |contador_sincrono|int_aux[0]                 ; regout           ;
+; |contador_sincrono|int_aux[1]                 ; |contador_sincrono|int_aux[1]                 ; regout           ;
+; |contador_sincrono|int_aux[2]                 ; |contador_sincrono|int_aux[2]                 ; regout           ;
+; |contador_sincrono|int_aux[3]                 ; |contador_sincrono|int_aux[3]                 ; regout           ;
+; |contador_sincrono|int_aux[4]                 ; |contador_sincrono|int_aux[4]                 ; regout           ;
+; |contador_sincrono|cnt[0]                     ; |contador_sincrono|cnt[0]                     ; regout           ;
+; |contador_sincrono|int_aux[0]~0               ; |contador_sincrono|int_aux[0]~0               ; combout          ;
+; |contador_sincrono|cnt[1]                     ; |contador_sincrono|cnt[1]                     ; regout           ;
+; |contador_sincrono|cnt[2]                     ; |contador_sincrono|cnt[2]                     ; regout           ;
+; |contador_sincrono|cnt[3]                     ; |contador_sincrono|cnt[3]                     ; regout           ;
+; |contador_sincrono|cnt[4]                     ; |contador_sincrono|cnt[4]                     ; regout           ;
+; |contador_sincrono|next_cnt_out[0]            ; |contador_sincrono|next_cnt_out[0]            ; padio            ;
+; |contador_sincrono|next_cnt_out[1]            ; |contador_sincrono|next_cnt_out[1]            ; padio            ;
+; |contador_sincrono|next_cnt_out[2]            ; |contador_sincrono|next_cnt_out[2]            ; padio            ;
+; |contador_sincrono|next_cnt_out[3]            ; |contador_sincrono|next_cnt_out[3]            ; padio            ;
+; |contador_sincrono|next_cnt_out[4]            ; |contador_sincrono|next_cnt_out[4]            ; padio            ;
+; |contador_sincrono|cnt_out[0]                 ; |contador_sincrono|cnt_out[0]                 ; padio            ;
+; |contador_sincrono|cnt_out[1]                 ; |contador_sincrono|cnt_out[1]                 ; padio            ;
+; |contador_sincrono|cnt_out[2]                 ; |contador_sincrono|cnt_out[2]                 ; padio            ;
+; |contador_sincrono|cnt_out[3]                 ; |contador_sincrono|cnt_out[3]                 ; padio            ;
+; |contador_sincrono|cnt_out[4]                 ; |contador_sincrono|cnt_out[4]                 ; padio            ;
+; |contador_sincrono|new_cnt_in[0]              ; |contador_sincrono|new_cnt_in[0]~corein       ; combout          ;
+; |contador_sincrono|clk_in                     ; |contador_sincrono|clk_in~corein              ; combout          ;
+; |contador_sincrono|load_ena                   ; |contador_sincrono|load_ena~corein            ; combout          ;
+; |contador_sincrono|new_cnt_in[1]              ; |contador_sincrono|new_cnt_in[1]~corein       ; combout          ;
+; |contador_sincrono|new_cnt_in[2]              ; |contador_sincrono|new_cnt_in[2]~corein       ; combout          ;
+; |contador_sincrono|new_cnt_in[3]              ; |contador_sincrono|new_cnt_in[3]~corein       ; combout          ;
+; |contador_sincrono|new_cnt_in[4]              ; |contador_sincrono|new_cnt_in[4]~corein       ; combout          ;
+; |contador_sincrono|cnt_ena                    ; |contador_sincrono|cnt_ena~corein             ; combout          ;
+; |contador_sincrono|clk_in~clkctrl             ; |contador_sincrono|clk_in~clkctrl             ; outclk           ;
+; |contador_sincrono|int_aux[0]~feeder          ; |contador_sincrono|int_aux[0]~feeder          ; combout          ;
+; |contador_sincrono|int_aux[3]~feeder          ; |contador_sincrono|int_aux[3]~feeder          ; combout          ;
+; |contador_sincrono|int_aux[4]~feeder          ; |contador_sincrono|int_aux[4]~feeder          ; combout          ;
+; |contador_sincrono|int_aux[5]~feeder          ; |contador_sincrono|int_aux[5]~feeder          ; combout          ;
+; |contador_sincrono|next_cnt_out[0]~reg0feeder ; |contador_sincrono|next_cnt_out[0]~reg0feeder ; combout          ;
+; |contador_sincrono|next_cnt_out[4]~reg0feeder ; |contador_sincrono|next_cnt_out[4]~reg0feeder ; combout          ;
++-----------------------------------------------+-----------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                           ;
++------------------------------------------------+------------------------------------------------+------------------+
+; Node Name                                      ; Output Port Name                               ; Output Port Type ;
++------------------------------------------------+------------------------------------------------+------------------+
+; |contador_sincrono|Add0~12                     ; |contador_sincrono|Add0~13                     ; cout             ;
+; |contador_sincrono|Add0~14                     ; |contador_sincrono|Add0~14                     ; combout          ;
+; |contador_sincrono|Add0~14                     ; |contador_sincrono|Add0~15                     ; cout             ;
+; |contador_sincrono|Add0~16                     ; |contador_sincrono|Add0~16                     ; combout          ;
+; |contador_sincrono|Add0~16                     ; |contador_sincrono|Add0~17                     ; cout             ;
+; |contador_sincrono|Add0~18                     ; |contador_sincrono|Add0~18                     ; combout          ;
+; |contador_sincrono|Add0~18                     ; |contador_sincrono|Add0~19                     ; cout             ;
+; |contador_sincrono|Add0~20                     ; |contador_sincrono|Add0~20                     ; combout          ;
+; |contador_sincrono|next_cnt_out[6]~reg0        ; |contador_sincrono|next_cnt_out[6]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[7]~reg0        ; |contador_sincrono|next_cnt_out[7]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[8]~reg0        ; |contador_sincrono|next_cnt_out[8]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[9]~reg0        ; |contador_sincrono|next_cnt_out[9]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[10]~reg0       ; |contador_sincrono|next_cnt_out[10]~reg0       ; regout           ;
+; |contador_sincrono|int_aux[6]                  ; |contador_sincrono|int_aux[6]                  ; regout           ;
+; |contador_sincrono|int_aux[7]                  ; |contador_sincrono|int_aux[7]                  ; regout           ;
+; |contador_sincrono|int_aux[8]                  ; |contador_sincrono|int_aux[8]                  ; regout           ;
+; |contador_sincrono|int_aux[9]                  ; |contador_sincrono|int_aux[9]                  ; regout           ;
+; |contador_sincrono|int_aux[10]                 ; |contador_sincrono|int_aux[10]                 ; regout           ;
+; |contador_sincrono|cnt[6]                      ; |contador_sincrono|cnt[6]                      ; regout           ;
+; |contador_sincrono|cnt[7]                      ; |contador_sincrono|cnt[7]                      ; regout           ;
+; |contador_sincrono|cnt[8]                      ; |contador_sincrono|cnt[8]                      ; regout           ;
+; |contador_sincrono|cnt[9]                      ; |contador_sincrono|cnt[9]                      ; regout           ;
+; |contador_sincrono|cnt[10]                     ; |contador_sincrono|cnt[10]                     ; regout           ;
+; |contador_sincrono|next_cnt_out[6]             ; |contador_sincrono|next_cnt_out[6]             ; padio            ;
+; |contador_sincrono|next_cnt_out[7]             ; |contador_sincrono|next_cnt_out[7]             ; padio            ;
+; |contador_sincrono|next_cnt_out[8]             ; |contador_sincrono|next_cnt_out[8]             ; padio            ;
+; |contador_sincrono|next_cnt_out[9]             ; |contador_sincrono|next_cnt_out[9]             ; padio            ;
+; |contador_sincrono|next_cnt_out[10]            ; |contador_sincrono|next_cnt_out[10]            ; padio            ;
+; |contador_sincrono|cnt_out[6]                  ; |contador_sincrono|cnt_out[6]                  ; padio            ;
+; |contador_sincrono|cnt_out[7]                  ; |contador_sincrono|cnt_out[7]                  ; padio            ;
+; |contador_sincrono|cnt_out[8]                  ; |contador_sincrono|cnt_out[8]                  ; padio            ;
+; |contador_sincrono|cnt_out[9]                  ; |contador_sincrono|cnt_out[9]                  ; padio            ;
+; |contador_sincrono|cnt_out[10]                 ; |contador_sincrono|cnt_out[10]                 ; padio            ;
+; |contador_sincrono|new_cnt_in[6]               ; |contador_sincrono|new_cnt_in[6]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[7]               ; |contador_sincrono|new_cnt_in[7]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[8]               ; |contador_sincrono|new_cnt_in[8]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[9]               ; |contador_sincrono|new_cnt_in[9]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[10]              ; |contador_sincrono|new_cnt_in[10]~corein       ; combout          ;
+; |contador_sincrono|int_aux[6]~feeder           ; |contador_sincrono|int_aux[6]~feeder           ; combout          ;
+; |contador_sincrono|int_aux[7]~feeder           ; |contador_sincrono|int_aux[7]~feeder           ; combout          ;
+; |contador_sincrono|int_aux[8]~feeder           ; |contador_sincrono|int_aux[8]~feeder           ; combout          ;
+; |contador_sincrono|int_aux[10]~feeder          ; |contador_sincrono|int_aux[10]~feeder          ; combout          ;
+; |contador_sincrono|next_cnt_out[8]~reg0feeder  ; |contador_sincrono|next_cnt_out[8]~reg0feeder  ; combout          ;
+; |contador_sincrono|next_cnt_out[10]~reg0feeder ; |contador_sincrono|next_cnt_out[10]~reg0feeder ; combout          ;
++------------------------------------------------+------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                           ;
++------------------------------------------------+------------------------------------------------+------------------+
+; Node Name                                      ; Output Port Name                               ; Output Port Type ;
++------------------------------------------------+------------------------------------------------+------------------+
+; |contador_sincrono|Add0~12                     ; |contador_sincrono|Add0~13                     ; cout             ;
+; |contador_sincrono|Add0~14                     ; |contador_sincrono|Add0~14                     ; combout          ;
+; |contador_sincrono|Add0~14                     ; |contador_sincrono|Add0~15                     ; cout             ;
+; |contador_sincrono|Add0~16                     ; |contador_sincrono|Add0~16                     ; combout          ;
+; |contador_sincrono|Add0~16                     ; |contador_sincrono|Add0~17                     ; cout             ;
+; |contador_sincrono|Add0~18                     ; |contador_sincrono|Add0~18                     ; combout          ;
+; |contador_sincrono|Add0~18                     ; |contador_sincrono|Add0~19                     ; cout             ;
+; |contador_sincrono|Add0~20                     ; |contador_sincrono|Add0~20                     ; combout          ;
+; |contador_sincrono|next_cnt_out[5]~reg0        ; |contador_sincrono|next_cnt_out[5]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[6]~reg0        ; |contador_sincrono|next_cnt_out[6]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[7]~reg0        ; |contador_sincrono|next_cnt_out[7]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[8]~reg0        ; |contador_sincrono|next_cnt_out[8]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[9]~reg0        ; |contador_sincrono|next_cnt_out[9]~reg0        ; regout           ;
+; |contador_sincrono|next_cnt_out[10]~reg0       ; |contador_sincrono|next_cnt_out[10]~reg0       ; regout           ;
+; |contador_sincrono|int_aux[5]                  ; |contador_sincrono|int_aux[5]                  ; regout           ;
+; |contador_sincrono|int_aux[6]                  ; |contador_sincrono|int_aux[6]                  ; regout           ;
+; |contador_sincrono|int_aux[7]                  ; |contador_sincrono|int_aux[7]                  ; regout           ;
+; |contador_sincrono|int_aux[8]                  ; |contador_sincrono|int_aux[8]                  ; regout           ;
+; |contador_sincrono|int_aux[9]                  ; |contador_sincrono|int_aux[9]                  ; regout           ;
+; |contador_sincrono|int_aux[10]                 ; |contador_sincrono|int_aux[10]                 ; regout           ;
+; |contador_sincrono|cnt[5]                      ; |contador_sincrono|cnt[5]                      ; regout           ;
+; |contador_sincrono|cnt[6]                      ; |contador_sincrono|cnt[6]                      ; regout           ;
+; |contador_sincrono|cnt[7]                      ; |contador_sincrono|cnt[7]                      ; regout           ;
+; |contador_sincrono|cnt[8]                      ; |contador_sincrono|cnt[8]                      ; regout           ;
+; |contador_sincrono|cnt[9]                      ; |contador_sincrono|cnt[9]                      ; regout           ;
+; |contador_sincrono|cnt[10]                     ; |contador_sincrono|cnt[10]                     ; regout           ;
+; |contador_sincrono|next_cnt_out[5]             ; |contador_sincrono|next_cnt_out[5]             ; padio            ;
+; |contador_sincrono|next_cnt_out[6]             ; |contador_sincrono|next_cnt_out[6]             ; padio            ;
+; |contador_sincrono|next_cnt_out[7]             ; |contador_sincrono|next_cnt_out[7]             ; padio            ;
+; |contador_sincrono|next_cnt_out[8]             ; |contador_sincrono|next_cnt_out[8]             ; padio            ;
+; |contador_sincrono|next_cnt_out[9]             ; |contador_sincrono|next_cnt_out[9]             ; padio            ;
+; |contador_sincrono|next_cnt_out[10]            ; |contador_sincrono|next_cnt_out[10]            ; padio            ;
+; |contador_sincrono|cnt_out[5]                  ; |contador_sincrono|cnt_out[5]                  ; padio            ;
+; |contador_sincrono|cnt_out[6]                  ; |contador_sincrono|cnt_out[6]                  ; padio            ;
+; |contador_sincrono|cnt_out[7]                  ; |contador_sincrono|cnt_out[7]                  ; padio            ;
+; |contador_sincrono|cnt_out[8]                  ; |contador_sincrono|cnt_out[8]                  ; padio            ;
+; |contador_sincrono|cnt_out[9]                  ; |contador_sincrono|cnt_out[9]                  ; padio            ;
+; |contador_sincrono|cnt_out[10]                 ; |contador_sincrono|cnt_out[10]                 ; padio            ;
+; |contador_sincrono|nrst                        ; |contador_sincrono|nrst~corein                 ; combout          ;
+; |contador_sincrono|new_cnt_in[5]               ; |contador_sincrono|new_cnt_in[5]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[6]               ; |contador_sincrono|new_cnt_in[6]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[7]               ; |contador_sincrono|new_cnt_in[7]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[8]               ; |contador_sincrono|new_cnt_in[8]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[9]               ; |contador_sincrono|new_cnt_in[9]~corein        ; combout          ;
+; |contador_sincrono|new_cnt_in[10]              ; |contador_sincrono|new_cnt_in[10]~corein       ; combout          ;
+; |contador_sincrono|nrst~clkctrl                ; |contador_sincrono|nrst~clkctrl                ; outclk           ;
+; |contador_sincrono|int_aux[6]~feeder           ; |contador_sincrono|int_aux[6]~feeder           ; combout          ;
+; |contador_sincrono|int_aux[7]~feeder           ; |contador_sincrono|int_aux[7]~feeder           ; combout          ;
+; |contador_sincrono|int_aux[8]~feeder           ; |contador_sincrono|int_aux[8]~feeder           ; combout          ;
+; |contador_sincrono|int_aux[10]~feeder          ; |contador_sincrono|int_aux[10]~feeder          ; combout          ;
+; |contador_sincrono|next_cnt_out[8]~reg0feeder  ; |contador_sincrono|next_cnt_out[8]~reg0feeder  ; combout          ;
+; |contador_sincrono|next_cnt_out[10]~reg0feeder ; |contador_sincrono|next_cnt_out[10]~reg0feeder ; combout          ;
++------------------------------------------------+------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Sat Nov 12 23:36:58 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off contador_sincrono -c contador_sincrono
+Info: Using vector source file "C:/Users/Pedro/Documents/GitHub/Trabalho_Sistemas_Reconfiguraveis_ULA/contador/contador_sincrono.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of contador_sincrono.vwf called contador_sincrono.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      50.94 %
+Info: Number of transitions in simulation is 2514
+Info: Vector file contador_sincrono.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 148 megabytes
+    Info: Processing ended: Sat Nov 12 23:36:58 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+
